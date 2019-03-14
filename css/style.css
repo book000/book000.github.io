@@ -1,0 +1,18 @@
+body {
+    /*background-color: #000000;*/
+    margin: 0;
+    padding: 0;
+}
+
+#shell {
+    padding: 15px;
+    color: white;
+}
+
+.command::before {
+    content: "# "
+}
+
+a {
+    color: darkgray;
+}
